@@ -16,5 +16,10 @@ namespace deneme
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Deneme'nin 2. Gün'ü");
+        }
     }
 }
